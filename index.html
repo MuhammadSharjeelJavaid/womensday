@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Women's Day | A Tribute by Sharjeel Javaid</title>
+  <meta name="description" content="A heartfelt International Women's Day tribute to Sharjeel Javaid's mother and sister.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page page-home">
+  <div class="welcome-curtain" id="welcomeCurtain" aria-hidden="true">
+    <p>Celebrating the women who shape our world</p>
+  </div>
+
+  <div class="petal-field" id="petalField" aria-hidden="true"></div>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Toggle background music">
+    Music: Off
+  </button>
+
+  <div class="music-overlay" id="musicOverlay" hidden>
+    <div class="music-overlay-card" role="dialog" aria-modal="true" aria-labelledby="musicOverlayTitle">
+      <h2 id="musicOverlayTitle">Tap to enable music</h2>
+      <p>A gentle background track can play while you explore this tribute.</p>
+      <button class="btn btn-primary" id="enableMusicBtn" type="button">Enable Music</button>
+    </div>
+  </div>
+
+  <audio id="bgMusic" loop preload="auto" data-volume="0.18">
+    <source src="assets/womens-day-theme.mp3" type="audio/mpeg">
+  </audio>
+
+  <header class="site-header">
+    <a class="brand page-link" href="index.html">International Women's Day</a>
+    <nav aria-label="Primary navigation">
+      <a class="nav-link page-link" href="mother.html">Mother</a>
+      <a class="nav-link page-link" href="sister.html">Sister</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <p class="eyebrow">8 March</p>
+      <h1>A tribute to the women who gave my life its direction, dignity, and warmth.</h1>
+      <p class="lead">
+        Sharjeel Javaid sends his heartfelt Women's Day wishes. Today, with gratitude and reverence,
+        he honors the two women whose love, strength, and guidance shaped his soul: his mother and his sister.
+      </p>
+      <p class="intro">
+        This space is a small offering of thanks. For every quiet prayer, every difficult sacrifice, every lesson in courage,
+        and every act of love that asked for nothing in return, this tribute is written with affection and respect.
+      </p>
+      <a class="btn btn-primary" href="#roles">Begin Tribute</a>
+    </section>
+
+    <section class="role-section reveal" id="roles" aria-labelledby="rolesHeading">
+      <h2 id="rolesHeading">Choose your role</h2>
+      <p class="section-copy">Open the dedication written for each of the remarkable women at the heart of this day.</p>
+
+      <div class="role-grid">
+        <article class="role-card" tabindex="0" aria-label="Open tribute for Sharjeel's Mother">
+          <h3>Sharjeel's Mother</h3>
+          <p>A letter of gratitude for the woman whose love made home feel sacred.</p>
+          <a class="btn btn-secondary page-link" href="mother.html">Read Mother Tribute</a>
+        </article>
+
+        <article class="role-card" tabindex="0" aria-label="Open tribute for Sharjeel's Sister">
+          <h3>Sharjeel's Sister</h3>
+          <p>A tribute to the sister whose example turned childhood into courage.</p>
+          <a class="btn btn-secondary page-link" href="sister.html">Read Sister Tribute</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>With gratitude, love, and respect. Happy International Women's Day.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

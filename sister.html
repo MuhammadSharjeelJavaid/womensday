@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Sidra | International Women's Day</title>
+  <meta name="description" content="A heartfelt Women's Day tribute from Sharjeel Javaid to his sister.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page page-tribute">
+  <div class="welcome-curtain" id="welcomeCurtain" aria-hidden="true">
+    <p>For Sidra</p>
+  </div>
+
+  <div class="petal-field" id="petalField" aria-hidden="true"></div>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Toggle background music">
+    Music: Off
+  </button>
+
+  <div class="music-overlay" id="musicOverlay" hidden>
+    <div class="music-overlay-card" role="dialog" aria-modal="true" aria-labelledby="musicOverlayTitle">
+      <h2 id="musicOverlayTitle">Tap to enable music</h2>
+      <p>A gentle background track can play while you read this tribute.</p>
+      <button class="btn btn-primary" id="enableMusicBtn" type="button">Enable Music</button>
+    </div>
+  </div>
+
+  <audio id="bgMusic" loop preload="auto" data-volume="0.18">
+    <source src="assets/womens-day-theme.mp3" type="audio/mpeg">
+  </audio>
+
+  <header class="site-header">
+    <a class="brand page-link" href="index.html">International Women's Day</a>
+    <nav aria-label="Primary navigation">
+      <a class="nav-link page-link" href="index.html">Home</a>
+      <a class="nav-link page-link" href="mother.html">Mother</a>
+    </nav>
+  </header>
+
+  <main class="tribute-main">
+    <section class="tribute-layout reveal">
+      <figure class="portrait-frame">
+        <img src="Sis.jpg" alt="Portrait tribute to Sharjeel's sister Sidra">
+      </figure>
+
+      <article class="tribute-card" aria-labelledby="sisterTitle">
+        <p class="eyebrow">A Letter of Admiration</p>
+        <h1 id="sisterTitle">To Sidra</h1>
+        <p>
+          Sidra, when I first became self-aware, I quickly realized that half of my childhood was already set in the right direction,
+          because all I had to do was follow your footsteps.
+          You set the standard for discipline, excellence, and ambition in almost every walk of life.
+        </p>
+        <p>
+          From slam books and my earliest drawings to standing firm for what I believe is right,
+          and facing the world with courage and relentless resolve, your influence is woven into who I am.
+          I may look like Ghous, whose favorite personality was Rameeka, but credit belongs where it is truly due.
+        </p>
+        <p>
+          Even through your own upheavals, you kept reminding us of our responsibilities and anchored us to serve the family.
+          You are an iron lady with a heart of gold. Some may notice the iron fist first,
+          but those who know you understand the warmth and generosity that live beneath it.
+        </p>
+        <p class="closing">Ee to manu hai.</p>
+        <a class="btn btn-secondary page-link" href="index.html">Back to Home</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>To strength with tenderness, and courage with love. Happy Women's Day, Sidra.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+Build me a complete, polished, mobile-friendly 3-page static website for GitHub Pages to celebrate International Women’s Day.
+
+Tech requirements:
+- Use only HTML, CSS, and vanilla JavaScript.
+- The site must work well on mobile, tablet, and desktop.
+- It should be elegant, emotional, interactive, and visually rich, with a soft premium aesthetic inspired by International Women’s Day.
+- Make it easy to host on GitHub Pages, so use relative file paths only.
+- Structure the project cleanly, for example:
+  - index.html
+  - mother.html
+  - sister.html
+  - style.css
+  - script.js
+  - assets/ (optional if needed)
+- In the project folder there will already be two images:
+  - Mama.jpg
+  - Sis.jpg
+
+Core concept:
+This website is a heartfelt International Women’s Day tribute from Sharjeel Javaid to his mother and sister.
+
+Important functionality:
+1. The website must have 3 pages:
+   - Home page
+   - Mother tribute page
+   - Sister tribute page
+
+2. Background music:
+   - On all three pages, soft background music should play with a graceful Women’s Day vibe.
+   - Use an open-source / royalty-free / freely usable instrumental track with a warm, uplifting, emotional feel.
+   - Since browsers often block autoplay, handle this elegantly:
+     - Try autoplay.
+     - If blocked, show a beautiful unobtrusive “Tap to enable music” button/overlay.
+   - Keep music volume low and soothing.
+   - Add a visible music toggle button so the user can mute/unmute.
+   - Preserve playback state across pages if possible.
+
+3. Design direction:
+   - Feminine but classy, not childish.
+   - Use a refined color palette such as blush pink, soft gold, ivory, lavender, and deep plum accents.
+   - Add subtle animations like floating petals, soft glow, slow fade-ins, shimmer, or elegant transitions.
+   - Use beautiful typography with strong readability.
+   - The site should feel emotional, celebratory, and luxurious.
+   - Add tasteful hover and tap interactions.
+   - Include smooth page transitions if possible.
+
+4. GitHub Pages compatibility:
+   - Ensure everything works as a static site.
+   - No frameworks, no server-side code, no build tools.
+   - Use semantic HTML and accessible design.
+
+5. Responsiveness:
+   - The layout must be fully responsive.
+   - Images should scale beautifully on phones.
+   - Text spacing and buttons should be thumb-friendly on mobile.
+
+Home page requirements:
+- Create a visually stunning hero section for International Women’s Day.
+- Add a refined headline and subheadline.
+- Improve and elevate this sentiment into beautiful English, keeping the meaning heartfelt and respectful:
+
+  “Sharjeel Javaid wishes you a Happy Women’s Day. On this day, I want to pay tribute to the two women who shaped my life in the most profound way.”
+
+- Rewrite it into something more elegant, emotionally powerful, and polished.
+- Add a short introductory paragraph that feels warm, grateful, and poetic.
+- Include a section titled something like:
+  “Choose your role”
+- Display two beautiful interactive cards/tabs/buttons:
+  - Sharjeel’s Mother
+  - Sharjeel’s Sister
+- When clicked, they should open the respective tribute pages.
+- Add subtle decorative elements related to Women’s Day, gratitude, family, and love.
+
+Mother page requirements:
+- Use Mama.jpg prominently and beautifully.
+- The image should feel premium and full-aesthetic, for example:
+  - elegant framed portrait style
+  - soft gradient overlays
+  - floral/light accents
+  - responsive crop handling
+- Add a deeply emotional tribute message.
+- Improve and refine the following text into polished, graceful, heartfelt English while preserving the original meaning and reverence:
+
+  “Mama Ji, when I opened my eyes for the first time, you are the first person I saw. I have also kept this view that there is a reason that Allah has compared God's love with maternal love and the reason I could believe it because the immense love you gave me throughout my life. You let us grow, nurture and seek love outwards even when we absolutely belong to you. All those sleepless nights and your sacrifices both spoken and unspoken are now more comprehensible because I am on the way of becoming parent. The universe manifests its most magical ability through a mother and you without an ounce of doubt held this responsibility like a queen.”
+
+- Keep the tone respectful, spiritual, loving, and literary.
+- Make the final version emotionally strong but natural.
+- Present the message in a beautiful card, letter, or tribute section.
+- Add a back button to return to the home page.
+
+Sister page requirements:
+- Use Sis.jpg prominently and beautifully with the same premium treatment.
+- Add a refined tribute message.
+- Improve and refine the following text into polished, expressive, heartfelt English while preserving the meaning, family warmth, and personality:
+
+  “Sidra, when I became self aware, I quickly realised that half of my childhood is sorted as all I have to do was to follow your footsteps to excel in my life. You have set the precedence of competitiveness, excellence and greatness in almost every walk of life. From Slam books to my first drawings, From standing on to what I believe is true to facing the world with courage and relentlessness, every aspect of my life is inspired by you. I might be looking like Ghous (as his favourite personality was Rameeka) but the credit must be given where it is due. And despite all the upheavals in your life you always reminded us of our responsibilities and anchored us to serve the family. You are the iron lady with a heart of gold. People might get intimidated by your iron fist but lest they know that there beats a heart of gold.
+
+  Ee to manu hai.”
+
+- Preserve the sibling warmth, admiration, strength, humor, and emotional honesty.
+- “Ee to manu hai” should be kept in some elegant way, perhaps as a closing line or affectionate personal signature.
+- Present the message with strong visual storytelling and graceful typography.
+- Add a back button to return to the home page.
+
+Writing quality:
+- Rewrite all provided text into polished, emotionally resonant, grammatically excellent English.
+- Keep it personal and sincere, not generic.
+- Avoid overly dramatic clichés.
+- Make the writing feel intimate, warm, and memorable.
+
+UI/UX extras:
+- Add an opening animation or soft welcome moment.
+- Add floating decorative particles/petals/lights in the background.
+- Add smooth scroll where relevant.
+- Add elegant button animations.
+- Add a footer with a subtle Women’s Day closing line.
+
+Accessibility:
+- Good color contrast.
+- Alt text for images.
+- Keyboard-friendly navigation.
+- Respect reduced motion preferences if possible.
+
+Output format:
+- Return the full code for all required files.
+- Make sure the code is directly runnable as a static website.
+- Include brief comments in the code where helpful.
+- Also include a short README section explaining:
+  - where to place Mama.jpg and Sis.jpg
+  - how to add or replace the background music file
+  - how to deploy to GitHub Pages
+
+Important:
+- Make the final result feel like a premium personal tribute website, not a template.
+- The emotional writing and aesthetic presentation are equally important.
+- The site should look beautiful even if opened on a phone first.

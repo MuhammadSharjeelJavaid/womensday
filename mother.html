@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Mama Ji | International Women's Day</title>
+  <meta name="description" content="A heartfelt Women's Day tribute from Sharjeel Javaid to his mother.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page page-tribute">
+  <div class="welcome-curtain" id="welcomeCurtain" aria-hidden="true">
+    <p>For Mama Ji</p>
+  </div>
+
+  <div class="petal-field" id="petalField" aria-hidden="true"></div>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Toggle background music">
+    Music: Off
+  </button>
+
+  <div class="music-overlay" id="musicOverlay" hidden>
+    <div class="music-overlay-card" role="dialog" aria-modal="true" aria-labelledby="musicOverlayTitle">
+      <h2 id="musicOverlayTitle">Tap to enable music</h2>
+      <p>A gentle background track can play while you read this tribute.</p>
+      <button class="btn btn-primary" id="enableMusicBtn" type="button">Enable Music</button>
+    </div>
+  </div>
+
+  <audio id="bgMusic" loop preload="auto" data-volume="0.18">
+    <source src="assets/womens-day-theme.mp3" type="audio/mpeg">
+  </audio>
+
+  <header class="site-header">
+    <a class="brand page-link" href="index.html">International Women's Day</a>
+    <nav aria-label="Primary navigation">
+      <a class="nav-link page-link" href="index.html">Home</a>
+      <a class="nav-link page-link" href="sister.html">Sister</a>
+    </nav>
+  </header>
+
+  <main class="tribute-main">
+    <section class="tribute-layout reveal">
+      <figure class="portrait-frame">
+        <img src="Mama.jpg" alt="Portrait tribute to Sharjeel's mother">
+      </figure>
+
+      <article class="tribute-card" aria-labelledby="motherTitle">
+        <p class="eyebrow">A Letter of Reverence</p>
+        <h1 id="motherTitle">To Mama Ji</h1>
+        <p>
+          Mama Ji, when I opened my eyes for the very first time, yours was the first face my world ever knew.
+          Since then, I have understood why Allah lets us witness a glimpse of divine mercy through a mother's love.
+          I believed this truth because of the boundless love you poured into every season of my life.
+        </p>
+        <p>
+          You raised us with tenderness and strength, and somehow taught us to grow beyond ourselves while still belonging to your heart.
+          Your sleepless nights, your spoken and unspoken sacrifices, and your quiet endurance mean even more to me now,
+          as I walk toward parenthood and begin to understand the depth of what you carried for us.
+        </p>
+        <p>
+          A mother is one of the universe's most miraculous responsibilities, and you have held that crown with unmatched grace.
+          In your care, love has always felt both noble and infinite.
+        </p>
+        <p class="closing">With love and everlasting gratitude, your son.</p>
+        <a class="btn btn-secondary page-link" href="index.html">Back to Home</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>For every prayer, every sacrifice, every embrace. Happy Women's Day, Mama Ji.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
